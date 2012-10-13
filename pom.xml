@@ -124,27 +124,6 @@
       </dependency>
       
       <dependency>
-        <groupId>org.commonjava.shelflife</groupId>
-        <artifactId>shelflife-api</artifactId>
-        <version>${shelflife-version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.commonjava.shelflife</groupId>
-        <artifactId>shelflife-store-memory</artifactId>
-        <version>${shelflife-version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.commonjava.shelflife</groupId>
-        <artifactId>shelflife-store-flat</artifactId>
-        <version>${shelflife-version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.commonjava.shelflife</groupId>
-        <artifactId>shelflife-store-infinispan</artifactId>
-        <version>${shelflife-version}</version>
-      </dependency>
-      
-      <dependency>
         <groupId>org.jboss.resteasy</groupId>
         <artifactId>jaxrs-api</artifactId>
         <version>2.2.0.GA</version>
