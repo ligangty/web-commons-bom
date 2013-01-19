@@ -37,8 +37,8 @@
     <slf4j-version>1.6.1</slf4j-version>
     <jbossas-version>7.1.1.Final</jbossas-version>
     <arquillian-version>1.0.1.Final</arquillian-version>
-    <qarqas-version>0.3-SNAPSHOT</qarqas-version>
-    <shelflife-version>0.2-SNAPSHOT</shelflife-version>
+    <qarqas-version>0.3</qarqas-version>
+    <shelflife-version>0.2</shelflife-version>
   </properties>
   
   <dependencyManagement>
@@ -59,12 +59,12 @@
       <dependency>
         <groupId>org.commonjava.util</groupId>
         <artifactId>configuration-api</artifactId>
-        <version>0.4-SNAPSHOT</version>
+        <version>0.4</version>
       </dependency>
       <dependency>
         <groupId>org.commonjava.util</groupId>
         <artifactId>configuration-dotconf</artifactId>
-        <version>0.4-SNAPSHOT</version>
+        <version>0.4</version>
       </dependency>
       
       <dependency>
@@ -107,12 +107,12 @@
       <dependency>
         <groupId>org.commonjava.web</groupId>
         <artifactId>json-serialization</artifactId>
-        <version>0.3-SNAPSHOT</version>
+        <version>0.3</version>
       </dependency>
       <dependency>
         <groupId>org.commonjava.web</groupId>
         <artifactId>json-test-harness</artifactId>
-        <version>0.3-SNAPSHOT</version>
+        <version>0.3</version>
         <scope>test</scope>
       </dependency>
       
