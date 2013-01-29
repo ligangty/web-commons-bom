@@ -211,6 +211,11 @@
         <artifactId>jboss-as-arquillian-container-managed</artifactId>
         <version>${jbossas-version}</version>
       </dependency>
+      <dependency>
+        <groupId>org.commonjava.cdi.util</groupId>
+        <artifactId>weft</artifactId>
+        <version>0.1-SNAPSHOT</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
   
