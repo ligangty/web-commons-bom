@@ -214,7 +214,7 @@
       <dependency>
         <groupId>org.commonjava.cdi.util</groupId>
         <artifactId>weft</artifactId>
-        <version>0.1-SNAPSHOT</version>
+        <version>0.1</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
