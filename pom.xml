@@ -26,6 +26,23 @@
   <name>Web Commons (BOM)</name>
   <description>List of common dependencies used in web applications.</description>
   
+  <url>http://github.com/jdcasey/web-commons-bom</url>
+  
+  <licenses>
+    <license>
+      <name>APLv2.0</name>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
+  <developers>
+    <developer>
+      <id>jdcasey</id>
+      <email>jdcasey@commonjava.org</email>
+      <name>John Casey</name>
+    </developer>
+  </developers>
+  
   <scm>
     <connection>scm:git:http://jdcasey@github.com/jdcasey/web-commons-bom.git</connection>
     <developerConnection>scm:git:git@github.com:jdcasey/web-commons-bom.git</developerConnection>
