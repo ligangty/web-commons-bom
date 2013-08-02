@@ -124,12 +124,12 @@
       <dependency>
         <groupId>org.commonjava.web</groupId>
         <artifactId>json-serialization</artifactId>
-        <version>0.5-SNAPSHOT</version>
+        <version>0.5</version>
       </dependency>
       <dependency>
         <groupId>org.commonjava.web</groupId>
         <artifactId>json-test-harness</artifactId>
-        <version>0.5-SNAPSHOT</version>
+        <version>0.5</version>
         <scope>test</scope>
       </dependency>
       
