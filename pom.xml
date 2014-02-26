@@ -55,28 +55,87 @@
     <jbossas-version>7.1.1.Final</jbossas-version>
     <arquillian-version>1.0.1.Final</arquillian-version>
     <qarqas-version>0.3</qarqas-version>
-    <shelflife-version>0.2</shelflife-version>
+    
+    <config-version>0.6-SNAPSHOT</config-version>
+    <json-version>0.6-SNAPSHOT</json-version>
+    <shelflife-version>0.6-SNAPSHOT</shelflife-version>
+    <vabr-version>1.4-SNAPSHOT</vabr-version>
+    <weft-version>0.7-SNAPSHOT</weft-version>
+    <webdav-version>3.1-SNAPSHOT</webdav-version>
   </properties>
   
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>org.commonjava.vertx</groupId>
+        <artifactId>vabr-api</artifactId>
+        <version>${vabr-version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.commonjava.vertx</groupId>
+        <artifactId>vabr-processor</artifactId>
+        <version>${vabr-version}</version>
+        <scope>provided</scope>
+      </dependency>
+    
+      <dependency>
+        <groupId>org.commonjava.cdi.util</groupId>
+        <artifactId>weft</artifactId>
+        <version>${weft-version}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>org.commonjava.web</groupId>
+        <artifactId>webdav-handler-common</artifactId>
+        <version>${webdav-version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.commonjava.web</groupId>
+        <artifactId>webdav-handler-vertx</artifactId>
+        <version>${webdav-version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.commonjava.web</groupId>
+        <artifactId>webdav-handler-servlet</artifactId>
+        <version>${webdav-version}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>org.commonjava.util</groupId>
+        <artifactId>configuration-api</artifactId>
+        <version>${config-version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.commonjava.util</groupId>
+        <artifactId>configuration-dotconf</artifactId>
+        <version>${config-version}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>org.commonjava.web</groupId>
+        <artifactId>json-serialization</artifactId>
+        <version>${json-version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.commonjava.web</groupId>
+        <artifactId>json-test-harness</artifactId>
+        <version>${json-version}</version>
+        <scope>test</scope>
+      </dependency>
+      
+      <dependency>
+        <groupId>org.commonjava.qarqas</groupId>
+        <artifactId>qarqas-test-harness</artifactId>
+        <version>${qarqas-version}</version>
+        <scope>test</scope>
+      </dependency>
+      
       <dependency>
         <groupId>org.jboss.arquillian</groupId>
         <artifactId>arquillian-bom</artifactId>
         <version>${arquillian-version}</version>
         <type>pom</type>
         <scope>import</scope>
-      </dependency>
-      
-      <dependency>
-        <groupId>org.commonjava.util</groupId>
-        <artifactId>configuration-api</artifactId>
-        <version>0.4</version>
-      </dependency>
-      <dependency>
-        <groupId>org.commonjava.util</groupId>
-        <artifactId>configuration-dotconf</artifactId>
-        <version>0.4</version>
       </dependency>
       
       <dependency>
@@ -124,26 +183,6 @@
         <groupId>ch.qos.logback</groupId>
         <artifactId>logback-classic</artifactId>
         <version>1.0.12</version>
-        <scope>test</scope>
-      </dependency>
-      
-      <dependency>
-        <groupId>org.commonjava.web</groupId>
-        <artifactId>json-serialization</artifactId>
-        <version>0.5</version>
-      </dependency>
-      <dependency>
-        <groupId>org.commonjava.web</groupId>
-        <artifactId>json-test-harness</artifactId>
-        <version>0.5</version>
-        <scope>test</scope>
-      </dependency>
-      
-      <dependency>
-        <groupId>org.commonjava.qarqas</groupId>
-        <artifactId>qarqas-test-harness</artifactId>
-        <version>${qarqas-version}</version>
-        <scope>test</scope>
       </dependency>
       
       <dependency>
@@ -233,11 +272,6 @@
         <groupId>org.jboss.as</groupId>
         <artifactId>jboss-as-arquillian-container-managed</artifactId>
         <version>${jbossas-version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.commonjava.cdi.util</groupId>
-        <artifactId>weft</artifactId>
-        <version>0.4</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.spec</groupId>
