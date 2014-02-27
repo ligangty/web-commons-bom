@@ -54,6 +54,8 @@
     <slf4j-version>1.7.4</slf4j-version>
     <jbossas-version>7.1.1.Final</jbossas-version>
     <arquillian-version>1.0.1.Final</arquillian-version>
+    <vertx.version>2.0.0-final</vertx.version>
+    
     <qarqas-version>0.3</qarqas-version>
     
     <config-version>0.6-SNAPSHOT</config-version>
