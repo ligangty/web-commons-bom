@@ -58,12 +58,12 @@
     
     <qarqas-version>0.3</qarqas-version>
     
-    <config-version>0.6-SNAPSHOT</config-version>
-    <json-version>0.6-SNAPSHOT</json-version>
-    <shelflife-version>0.6-SNAPSHOT</shelflife-version>
-    <vabr-version>1.4-SNAPSHOT</vabr-version>
-    <weft-version>0.7-SNAPSHOT</weft-version>
-    <webdav-version>3.1-SNAPSHOT</webdav-version>
+    <config-version>0.6</config-version>
+    <json-version>0.6</json-version>
+    <shelflife-version>0.6</shelflife-version>
+    <vabr-version>1.4</vabr-version>
+    <weft-version>0.7</weft-version>
+    <webdav-version>3.1</webdav-version>
   </properties>
   
   <dependencyManagement>
