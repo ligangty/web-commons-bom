@@ -19,7 +19,7 @@
   
   <groupId>org.commonjava.boms</groupId>
   <artifactId>web-commons-bom</artifactId>
-  <version>11-SNAPSHOT</version>
+  <version>10-SNAPSHOT</version>
   
   <packaging>pom</packaging>
   
@@ -58,7 +58,7 @@
     
     <qarqas-version>0.3</qarqas-version>
     
-    <config-version>0.6.1</config-version>
+    <config-version>0.6.2</config-version>
     <json-version>0.6</json-version>
     <shelflife-version>0.6.2</shelflife-version>
     <vabr-version>1.4</vabr-version>
