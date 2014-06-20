@@ -56,7 +56,7 @@
     <config-version>0.6.2</config-version>
     <json-version>0.6</json-version>
     <shelflife-version>0.6.3</shelflife-version>
-    <vabr-version>1.6-SNAPSHOT</vabr-version>
+    <vabr-version>1.6</vabr-version>
     <weft-version>0.7</weft-version>
     <webdav-version>3.1</webdav-version>
   </properties>
