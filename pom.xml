@@ -47,18 +47,15 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <slf4j-version>1.7.4</slf4j-version>
-    <jbossas-version>7.1.1.Final</jbossas-version>
-    <arquillian-version>1.0.1.Final</arquillian-version>
-    <vertx.version>2.1.1</vertx.version>
+    <vertx.version>2.0.0-final</vertx.version>
     
-    <qarqas-version>0.3</qarqas-version>
     
-    <config-version>0.6.2</config-version>
-    <json-version>0.6</json-version>
+    <config-version>0.6.3-SNAPSHOT</config-version>
     <shelflife-version>0.6.3</shelflife-version>
     <vabr-version>1.9-SNAPSHOT</vabr-version>
     <weft-version>0.7</weft-version>
     <webdav-version>3.1</webdav-version>
+    <jackson-version>2.3.3</jackson-version>
   </properties>
   
   <dependencyManagement>
@@ -130,32 +127,8 @@
         <version>${config-version}</version>
       </dependency>
       
-      <dependency>
-        <groupId>org.commonjava.web</groupId>
-        <artifactId>json-serialization</artifactId>
-        <version>${json-version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.commonjava.web</groupId>
-        <artifactId>json-test-harness</artifactId>
-        <version>${json-version}</version>
-        <scope>test</scope>
-      </dependency>
       
-      <dependency>
-        <groupId>org.commonjava.qarqas</groupId>
-        <artifactId>qarqas-test-harness</artifactId>
-        <version>${qarqas-version}</version>
-        <scope>test</scope>
-      </dependency>
       
-      <dependency>
-        <groupId>org.jboss.arquillian</groupId>
-        <artifactId>arquillian-bom</artifactId>
-        <version>${arquillian-version}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
       
       <dependency>
         <groupId>commons-lang</groupId>
@@ -306,6 +279,16 @@
         <scope>provided</scope>
         <type>pom</type>
       </dependency>
+      <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-core</artifactId>
+        <version>${jackson-version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>${jackson-version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
   
@@ -411,5 +394,4 @@
       </build>
     </profile>
   </profiles>
-
 </project>
