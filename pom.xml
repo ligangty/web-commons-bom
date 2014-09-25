@@ -14,7 +14,7 @@
   
   <groupId>org.commonjava.boms</groupId>
   <artifactId>web-commons-bom</artifactId>
-  <version>13-SNAPSHOT</version>
+  <version>13</version>
   
   <packaging>pom</packaging>
   
@@ -50,9 +50,9 @@
     <vertx.version>2.0.0-final</vertx.version>
     
     
-    <config-version>0.6.3-SNAPSHOT</config-version>
+    <config-version>0.6.3</config-version>
     <shelflife-version>0.6.3</shelflife-version>
-    <vabr-version>1.9-SNAPSHOT</vabr-version>
+    <vabr-version>1.10</vabr-version>
     <weft-version>0.7</weft-version>
     <webdav-version>3.1</webdav-version>
     <jackson-version>2.3.3</jackson-version>
