@@ -14,7 +14,7 @@
   
   <groupId>org.commonjava.boms</groupId>
   <artifactId>web-commons-bom</artifactId>
-  <version>15</version>
+  <version>16-SNAPSHOT</version>
   
   <packaging>pom</packaging>
   
