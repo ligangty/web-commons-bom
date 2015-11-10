@@ -27,7 +27,7 @@
   
   <groupId>org.commonjava.boms</groupId>
   <artifactId>web-commons-bom</artifactId>
-  <version>17-SNAPSHOT</version>
+  <version>18-SNAPSHOT</version>
   
   <packaging>pom</packaging>
   
@@ -57,6 +57,7 @@
     <weft-version>0.8</weft-version>
     <webdav-version>3.2.0</webdav-version>
     <jackson-version>2.4.1</jackson-version>
+    <httpclient-version>4.4</httpclient-version>
   </properties>
   
   <dependencyManagement>
@@ -188,7 +189,18 @@
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpclient</artifactId>
-        <version>4.4</version>
+        <version>${httpclient-version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpcore</artifactId>
+        <version>${httpclient-version}</version>
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId>
