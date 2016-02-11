@@ -58,7 +58,7 @@
     <webdav-version>3.2.0</webdav-version>
     <jackson-version>2.4.1</jackson-version>
     <httpclient-version>4.4</httpclient-version>
-    <version.org.jboss.resteasy>2.2.0.GA</version.org.jboss.resteasy>
+    <version.org.jboss.resteasy>3.0.12.Final</version.org.jboss.resteasy>
     <version.org.jboss.weld.se>2.3.2.Final</version.org.jboss.weld.se>
     <version.javax.enterprise.cdi-api>1.2</version.javax.enterprise.cdi-api>
   </properties>
