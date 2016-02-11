@@ -58,6 +58,7 @@
     <webdav-version>3.2.0</webdav-version>
     <jackson-version>2.4.1</jackson-version>
     <httpclient-version>4.4</httpclient-version>
+    <version.org.jboss.resteasy>2.2.0.GA</version.org.jboss.resteasy>
     <version.org.jboss.weld.se>2.3.2.Final</version.org.jboss.weld.se>
     <version.javax.enterprise.cdi-api>1.2</version.javax.enterprise.cdi-api>
   </properties>
@@ -155,25 +156,25 @@
       <dependency>
         <groupId>org.jboss.resteasy</groupId>
         <artifactId>jaxrs-api</artifactId>
-        <version>2.2.0.GA</version>
+        <version>${version.org.jboss.resteasy}</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
         <groupId>org.jboss.resteasy</groupId>
         <artifactId>jaxrs-api</artifactId>
-        <version>2.2.0.GA</version>
+        <version>${version.org.jboss.resteasy}</version>
         <scope>provided</scope>
       </dependency>
       <dependency>
         <groupId>org.jboss.resteasy</groupId>
         <artifactId>resteasy-jaxrs</artifactId>
-        <version>2.2.0.GA</version>
+        <version>${version.org.jboss.resteasy}</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
         <groupId>org.jboss.resteasy</groupId>
         <artifactId>resteasy-jaxrs</artifactId>
-        <version>2.2.0.GA</version>
+        <version>${version.org.jboss.resteasy}</version>
         <scope>provided</scope>
       </dependency>
       <dependency>
