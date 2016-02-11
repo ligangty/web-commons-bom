@@ -58,6 +58,7 @@
     <webdav-version>3.2.0</webdav-version>
     <jackson-version>2.4.1</jackson-version>
     <httpclient-version>4.4</httpclient-version>
+    <version.org.jboss.weld.se>2.1.1.Final</version.org.jboss.weld.se>
   </properties>
   
   <dependencyManagement>
@@ -224,13 +225,13 @@
       <dependency>
         <groupId>org.jboss.weld.se</groupId>
         <artifactId>weld-se-core</artifactId>
-        <version>2.1.1.Final</version>
+        <version>${version.org.jboss.weld.se}</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
         <groupId>org.jboss.weld.se</groupId>
         <artifactId>weld-se-core</artifactId>
-        <version>2.1.1.Final</version>
+        <version>${version.org.jboss.weld.se}</version>
         <scope>test</scope>
       </dependency>
       <dependency>
