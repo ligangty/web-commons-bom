@@ -279,7 +279,12 @@
         <artifactId>jackson-databind</artifactId>
         <version>${jackson-version}</version>
       </dependency>
-      
+      <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-annotations</artifactId>
+        <version>${jackson-version}</version>
+      </dependency>
+
       <!-- taming the depgraph -->
       <dependency>
         <groupId>org.jboss.spec.javax.annotation</groupId>
