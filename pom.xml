@@ -27,7 +27,7 @@
   
   <groupId>org.commonjava.boms</groupId>
   <artifactId>web-commons-bom</artifactId>
-  <version>18-SNAPSHOT</version>
+  <version>18</version>
   
   <packaging>pom</packaging>
   
