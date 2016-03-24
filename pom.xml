@@ -22,7 +22,7 @@
   <parent>
     <groupId>org.commonjava</groupId>
     <artifactId>commonjava</artifactId>
-    <version>8</version>
+    <version>11</version>
   </parent>
   
   <groupId>org.commonjava.boms</groupId>
@@ -53,8 +53,8 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <slf4j-version>1.7.4</slf4j-version>
-    <config-version>0.7.2-SNAPSHOT</config-version>
-    <weft-version>0.9-SNAPSHOT</weft-version>
+    <config-version>0.8</config-version>
+    <weft-version>1.0</weft-version>
     <webdav-version>3.2.0</webdav-version>
     <jackson-version>2.4.1</jackson-version>
     <httpclient-version>4.4</httpclient-version>
