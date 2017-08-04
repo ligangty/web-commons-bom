@@ -62,7 +62,6 @@
     <weld-version>2.3.2.Final</weld-version>
     <cdi-version>1.2</cdi-version>
     <logback-version>1.1.7</logback-version>
-
     <enforceBestPractices>false</enforceBestPractices>
     <enforceStandards>false</enforceStandards>
     <enforceVersions>false</enforceVersions>
