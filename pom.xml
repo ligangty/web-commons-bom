@@ -52,7 +52,7 @@
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <slf4j-version>1.7.4</slf4j-version>
+    <slf4j-version>1.7.21</slf4j-version>
     <config-version>0.8</config-version>
     <weft-version>1.0</weft-version>
     <webdav-version>3.2.0</webdav-version>
@@ -61,7 +61,7 @@
     <resteasy-version>3.0.12.Final</resteasy-version>
     <weld-version>2.3.2.Final</weld-version>
     <cdi-version>1.2</cdi-version>
-
+    <logback-version>1.1.7</logback-version>
     <enforceBestPractices>false</enforceBestPractices>
     <enforceStandards>false</enforceStandards>
     <enforceVersions>false</enforceVersions>
@@ -152,12 +152,12 @@
       <dependency>
         <groupId>ch.qos.logback</groupId>
         <artifactId>logback-core</artifactId>
-        <version>1.0.12</version>
+        <version>${logback-version}</version>
       </dependency>
       <dependency>
         <groupId>ch.qos.logback</groupId>
         <artifactId>logback-classic</artifactId>
-        <version>1.0.12</version>
+        <version>${logback-version}</version>
       </dependency>
       
       <dependency>
