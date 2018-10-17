@@ -56,7 +56,7 @@
     <config-version>0.8</config-version>
     <weft-version>1.0</weft-version>
     <webdav-version>3.2.0</webdav-version>
-    <jackson-version>2.4.1</jackson-version>
+    <jackson-version>2.9.7</jackson-version>
     <httpclient-version>4.4</httpclient-version>
     <resteasy-version>3.0.12.Final</resteasy-version>
     <weld-version>2.3.2.Final</weld-version>
