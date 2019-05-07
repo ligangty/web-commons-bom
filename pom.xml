@@ -53,7 +53,6 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <slf4j-version>1.7.21</slf4j-version>
-    <config-version>0.8</config-version>
     <weft-version>1.0</weft-version>
     <webdav-version>3.2.0</webdav-version>
     <jackson-version>2.9.8</jackson-version>
@@ -90,18 +89,6 @@
         <artifactId>webdav-handler-servlet</artifactId>
         <version>${webdav-version}</version>
       </dependency>
-      
-      <dependency>
-        <groupId>org.commonjava.util</groupId>
-        <artifactId>configuration-api</artifactId>
-        <version>${config-version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.commonjava.util</groupId>
-        <artifactId>configuration-dotconf</artifactId>
-        <version>${config-version}</version>
-      </dependency>
-      
       
       <dependency>
         <groupId>commons-lang</groupId>
