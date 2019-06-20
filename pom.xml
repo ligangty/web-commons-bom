@@ -56,7 +56,8 @@
     <weft-version>1.0</weft-version>
     <webdav-version>3.2.0</webdav-version>
     <jackson-version>2.9.9</jackson-version>
-    <httpclient-version>4.4</httpclient-version>
+    <httpcoreVersion>4.4.9</httpcoreVersion>
+    <httpclientVersion>4.5.9</httpclientVersion>
     <resteasy-version>3.0.12.Final</resteasy-version>
     <weld-version>2.3.2.Final</weld-version>
     <cdi-version>1.2</cdi-version>
@@ -203,7 +204,7 @@
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpclient</artifactId>
-        <version>${httpclient-version}</version>
+        <version>${httpclientVersion}</version>
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId>
@@ -214,7 +215,7 @@
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpcore</artifactId>
-        <version>${httpclient-version}</version>
+        <version>${httpcoreVersion}</version>
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId>
