@@ -57,7 +57,7 @@
     <webdav-version>3.2.0</webdav-version>
     <jackson-version>2.10.1</jackson-version>
     <httpcoreVersion>4.4.9</httpcoreVersion>
-    <httpclientVersion>4.5.9</httpclientVersion>
+    <httpclientVersion>4.5.13</httpclientVersion>
     <resteasy-version>3.0.12.Final</resteasy-version>
     <weld-version>2.4.6.Final</weld-version>
     <cdi-version>1.2</cdi-version>
