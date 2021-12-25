@@ -61,7 +61,7 @@
     <resteasy-version>3.0.12.Final</resteasy-version>
     <weld-version>2.4.6.Final</weld-version>
     <cdi-version>1.2</cdi-version>
-    <logback-version>1.2.3</logback-version>
+    <logback-version>1.2.9</logback-version>
     <enforceBestPractices>false</enforceBestPractices>
     <enforceStandards>false</enforceStandards>
     <enforceVersions>false</enforceVersions>
