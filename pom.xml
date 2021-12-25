@@ -227,7 +227,7 @@
       <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
-        <version>18.0</version>
+        <version>24.1.1-jre</version>
       </dependency>
       
       <dependency>
@@ -296,7 +296,7 @@
       <dependency>
         <groupId>org.jboss.logging</groupId>
         <artifactId>jboss-logging</artifactId>
-        <version>3.4.0.GA</version>
+        <version>3.4.1.Final</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
