@@ -27,7 +27,7 @@
   
   <groupId>org.commonjava.boms</groupId>
   <artifactId>web-commons-bom</artifactId>
-  <version>27-SNAPSHOT</version>
+  <version>27</version>
   
   <packaging>pom</packaging>
   
@@ -48,6 +48,7 @@
     <connection>scm:git:http://github.com/commonjava/web-commons-bom.git</connection>
     <developerConnection>scm:git:git@github.com:commonjava/web-commons-bom.git</developerConnection>
     <url>http://github.com/commonjava/web-commons-bom</url>
+    <tag>web-commons-bom-27</tag>
   </scm>
   
   <properties>
