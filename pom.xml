@@ -57,7 +57,7 @@
     <weft-version>1.20</weft-version>
     <webdav-version>3.2.0</webdav-version>
     <jackson-version>2.13.3</jackson-version>
-    <httpcoreVersion>4.4.9</httpcoreVersion>
+    <httpcoreVersion>4.4.15</httpcoreVersion>
     <httpclientVersion>4.5.13</httpclientVersion>
     <resteasy-version>3.0.12.Final</resteasy-version>
     <weld-version>2.4.8.Final</weld-version>
@@ -102,7 +102,12 @@
         <artifactId>commons-io</artifactId>
         <version>2.11.0</version>
       </dependency>
-      
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+        <version>3.12.0</version>
+      </dependency>
+
       <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-api</artifactId>
