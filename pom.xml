@@ -60,8 +60,8 @@
     <httpcoreVersion>4.4.15</httpcoreVersion>
     <httpclientVersion>4.5.13</httpclientVersion>
     <resteasy-version>3.0.12.Final</resteasy-version>
-    <weld-version>2.4.8.Final</weld-version>
-    <cdi-version>1.2</cdi-version>
+    <weld-version>3.1.9.Final</weld-version>
+    <cdi-version>2.0</cdi-version>
     <logback-version>1.2.11</logback-version>
     <enforceBestPractices>false</enforceBestPractices>
     <enforceStandards>false</enforceStandards>
@@ -243,7 +243,7 @@
       
       <dependency>
         <groupId>org.jboss.weld.se</groupId>
-        <artifactId>weld-se</artifactId>
+        <artifactId>weld-se-shaded</artifactId>
         <version>${weld-version}</version>
       </dependency>
       <dependency>
