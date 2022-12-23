@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-    Copyright (C) 2011-2022 Red Hat, Inc. (http://github.com/Commonjava/commonjava)
+    Copyright (C) 2012-2022 Red Hat, Inc. (http://github.com/Commonjava/commonjava)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -35,6 +35,7 @@
   <description>List of common dependencies used in web applications.</description>
   
   <url>http://github.com/jdcasey/web-commons-bom</url>
+  <inceptionYear>2012-2022</inceptionYear>
   
   <developers>
     <developer>
