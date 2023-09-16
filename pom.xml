@@ -22,7 +22,7 @@
   <parent>
     <groupId>org.commonjava</groupId>
     <artifactId>commonjava</artifactId>
-    <version>17</version>
+    <version>18</version>
   </parent>
   
   <groupId>org.commonjava.boms</groupId>
@@ -55,15 +55,15 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <slf4j-version>1.7.36</slf4j-version>
-    <weft-version>1.20</weft-version>
+    <weft-version>1.22</weft-version>
     <webdav-version>3.2.0</webdav-version>
-    <jackson-version>2.13.3</jackson-version>
+    <jackson-version>2.15.2</jackson-version>
     <httpcoreVersion>4.4.15</httpcoreVersion>
     <httpclientVersion>4.5.13</httpclientVersion>
-    <resteasy-version>3.0.20.Final</resteasy-version>
+    <resteasy-version>3.15.6.Final</resteasy-version>
     <weld-version>3.1.9.Final</weld-version>
     <cdi-version>2.0</cdi-version>
-    <logback-version>1.2.11</logback-version>
+    <logback-version>1.2.12</logback-version>
     <enforceBestPractices>false</enforceBestPractices>
     <enforceStandards>false</enforceStandards>
     <enforceVersions>false</enforceVersions>
