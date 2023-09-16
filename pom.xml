@@ -60,7 +60,8 @@
     <jackson-version>2.15.2</jackson-version>
     <httpcoreVersion>4.4.15</httpcoreVersion>
     <httpclientVersion>4.5.13</httpclientVersion>
-    <resteasy-version>3.15.6.Final</resteasy-version>
+    <resteasy-version>3.0.26.Final</resteasy-version>
+    <jaxrs-version>3.0.12.Final</jaxrs-version>
     <weld-version>3.1.9.Final</weld-version>
     <cdi-version>2.0</cdi-version>
     <logback-version>1.2.12</logback-version>
