@@ -54,7 +54,7 @@
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <slf4j-version>1.7.36</slf4j-version>
+    <slf4j-version>2.0.7</slf4j-version>
     <weft-version>1.22</weft-version>
     <webdav-version>3.2.0</webdav-version>
     <jackson-version>2.15.2</jackson-version>
@@ -64,7 +64,7 @@
     <jaxrs-version>3.0.12.Final</jaxrs-version>
     <weld-version>3.1.9.Final</weld-version>
     <cdi-version>2.0</cdi-version>
-    <logback-version>1.2.12</logback-version>
+    <logback-version>1.4.9</logback-version>
     <enforceBestPractices>false</enforceBestPractices>
     <enforceStandards>false</enforceStandards>
     <enforceVersions>false</enforceVersions>
