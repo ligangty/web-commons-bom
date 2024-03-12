@@ -46,9 +46,9 @@
   </developers>
   
   <scm>
-    <connection>scm:git:http://github.com/commonjava/web-commons-bom.git</connection>
-    <developerConnection>scm:git:git@github.com:commonjava/web-commons-bom.git</developerConnection>
-    <url>http://github.com/commonjava/web-commons-bom</url>
+    <connection>scm:git:https://github.com/Commonjava/web-commons-bom</connection>
+    <developerConnection>scm:git:git@github.com:Commonjava/web-commons-bom</developerConnection>
+    <url>https://github.com/Commonjava/web-commons-bom</url>
     <tag>HEAD</tag>
   </scm>
   
