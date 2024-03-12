@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-    Copyright (C) 2012-2022 Red Hat, Inc. (http://github.com/Commonjava/commonjava)
+    Copyright (C) 2012-2024 Red Hat, Inc. (https://github.com/Commonjava/web-commons-bom)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -34,8 +34,8 @@
   <name>Web Commons (BOM)</name>
   <description>List of common dependencies used in web applications.</description>
   
-  <url>http://github.com/jdcasey/web-commons-bom</url>
-  <inceptionYear>2012-2022</inceptionYear>
+  <url>https://github.com/Commonjava/web-commons-bom</url>
+  <inceptionYear>2012-2024</inceptionYear>
   
   <developers>
     <developer>
@@ -53,6 +53,8 @@
   </scm>
   
   <properties>
+    <projectOwner>Red Hat, Inc.</projectOwner>
+    <projectEmail>https://github.com/Commonjava/web-commons-bom</projectEmail>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <slf4j-version>2.0.7</slf4j-version>
     <weft-version>1.22</weft-version>
